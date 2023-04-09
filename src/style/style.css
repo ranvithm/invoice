@@ -1,0 +1,12 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.875rem;
+}
+
+#root{
+  height: 100vh;
+  background-color: #f1fcff;
+  padding: 24px;
+  font-size: 0.875rem;
+  overflow: auto;
+}
