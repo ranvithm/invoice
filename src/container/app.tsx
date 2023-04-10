@@ -13,7 +13,7 @@ const App: React.FC = () => {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Box display="flex" flexDirection="column" margin="auto">
+      <Box display="flex" flexDirection="column" margin="auto" width="100%">
         <Toolbar />
         <Home />
       </Box>

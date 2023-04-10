@@ -2,9 +2,11 @@ import React from "react";
 import { Box, Button, TextField } from "@mui/material";
 import TableRow from "../component/table-row";
 
-const Edit: React.FC<{ changeView: (_0: string) => void }> = ({changeView}) => {
+const Edit: React.FC<{ changeView: (_0: string) => void }> = ({
+  changeView,
+}) => {
   return (
-    <Box width="50vw" p={4}>
+    <Box p={4}>
       <Box display="flex" flexDirection="column" gap={3} pb={4}>
         <TextField size="small" label="name" />
         <TextField size="small" rows={3} label="address" />
